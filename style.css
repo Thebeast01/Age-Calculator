@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=El+Messiri:wght@400;679&family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(https://images.unsplash.com/photo-1609697299491-69d2d5ed2c36?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=434&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  width: 30%;
+  min-height: 50vh;
+  /* border: 2px solid black;    */
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  border-radius: 2rem;
+  backdrop-filter:blur(20px);
+  box-shadow: 2rem 2rem 2rem rgb(0, 0, 0);
+}
+h1 {
+  margin-bottom: 2rem;
+  text-decoration: underline;
+  margin-top: 1rem;
+}
+h4 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+.input-box {
+  margin-bottom: 1.2rem;
+  height: 2rem;
+}
+button {
+  width: 4.5rem;
+  height: 2rem;
+  background-color: rgb(15, 15, 15);
+  border: none;
+  outline: none;
+  border-radius: 0.34rem;
+  font-weight: 700;
+  color: white;
+}
+button:hover {
+  background-color: rgb(103, 105, 105);
+  color: black;
+  transition: 0.5s ease;
+}
+h3 {
+  font-size: 1.7rem;
+  margin-top: 1.2rem;
+}
+.output{
+    font-size: 2.5rem;
+}
